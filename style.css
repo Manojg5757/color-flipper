@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* Navbar Styling */
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #982176;
+    height: 50px;
+    color: white;
+
+& .title{
+   margin-left: 20px;
+}
+
+& .options{
+    display: flex;
+    gap: 20px;
+}    
+
+ & .options  li{
+    list-style: none;
+    margin-right: 20px;
+    
+}
+
+& .options  li a{
+    text-decoration: none;
+    color: white;
+}
+}
+
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;height: 100vh;
+}
+
+main .background{
+    background: black;
+    color: white;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+main button{
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 3px 3px black;
+    border: none;
+    background: #F11A7B;
+    color: white;
+}
